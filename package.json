@@ -1,0 +1,22 @@
+{
+  "name": "AOWStats",
+  "version": "1.0.0",
+  "description": "Age of Warriors stats calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digijin/aowstats.git"
+  },
+  "author": "digijin <james@digijin.com> (https://github.com/digijin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digijin/aowstats/issues"
+  },
+  "homepage": "https://github.com/digijin/aowstats",
+  "dependencies": {
+    "coffee-script": "^1.9.3"
+  }
+}
