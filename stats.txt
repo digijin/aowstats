@@ -1,0 +1,59 @@
+shawn 
+level47
+
+primary fight
++8
+might 104
+
+jnr hit
++50
+might 100
+
+primary resist
++8
+might 40
+
+jnr resist
++20
+might 100
+
+jnr tenacity
++44
+might 88
+
+jnr strength
++6
+might 398 
+
+
+anne
+lvl46
+
+jnr resist
++17
+might 85
+
+
+
+elements:
+	fearless:
+		armor: 160
+	arcane:
+		intelligence: 20
+	element:
+		agility: 20
+	power:
+		strength: 20
+	origin:
+		hp: 200
+	secret:
+		resist: 160
+might:
+	hill:
+		armor: 640/160
+		intelligence: 60/20
+		agility: 636/20
+		strength: 580/20
+		hp: 2
+		resist: 5
+
