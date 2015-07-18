@@ -1,0 +1,16 @@
+elements
+
+<table>
+<%
+data.elements.forEach(function(el){
+%>
+<tr>
+	<td><%= el.name %></td>
+	<td><%= el.might %></td>
+	<td><%= JSON.stringify(el) %></td>
+</tr>
+<%
+})
+%>
+
+</table>

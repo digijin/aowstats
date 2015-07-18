@@ -1,19 +1,32 @@
-console.log "yolo"
 
 mights = require './might'
 elements = require './elements'
 
-for element of elements.arcane
-	totalMight = 0
-	console.log element + ':'
-	data = elements.arcane[element]
-	for attr of data
+view = require './view/elements'
 
-		val = data[attr]
-		char = mights.hill
-		if char[attr]
-			might = char[attr] * val
-			totalMight += might
+window.onload = ->
+	elementMights = []
+	for element of elements.arcane
+		el = {}
+		el.name = element
+		# console.log element + ':'
+		totalMight = 0
+		data = elements.arcane[element]
+		el.attrs = []
+		for attr of data
 
-		console.log attr + ' ' + val + ' - ' + might
-	console.log 'total might: '+ totalMight
+			val = data[attr]
+			char = mights.hill
+			if char[attr]
+				might = char[attr] * val
+				totalMight += might
+
+			el.attrs.push {name: attr, val: val, might: might}
+			# console.log attr + ' ' + val + ' - ' + might
+		# console.log 'total might: '+ totalMight
+		el.might = totalMight
+		elementMights.push el
+	
+	console.log elementMights
+	document.body.innerHTML = view({elements: elementMights})
+		
