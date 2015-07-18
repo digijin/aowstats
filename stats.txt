@@ -25,6 +25,14 @@ jnr strength
 +6
 might 398 
 
+snr defence (armor)
++x?
+148
+
+jnr defence
++17
+might 68
+
 
 anne
 lvl46
@@ -32,6 +40,12 @@ lvl46
 jnr resist
 +17
 might 85
+
+hill 
+lvl47
+
+snr agi
+
 
 
 
@@ -48,12 +62,16 @@ elements:
 		hp: 200
 	secret:
 		resist: 160
+	shell:
+		dodge: 100
+	break:
+		attack: 80
+	sacrifice:
+		critChance: 2
+		attack: 80
+	expBoost2:
+		critChance: 1
+
+
 might:
-	hill:
-		armor: 640/160
-		intelligence: 60/20
-		agility: 636/20
-		strength: 580/20
-		hp: 2
-		resist: 5
 
