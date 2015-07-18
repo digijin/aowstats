@@ -20,16 +20,16 @@ module.exports =
 			attack: 53
 			critChance: 1
 	arcane:
-		'ferity roar':
-			strength: 75
-			hp: 750
+		# 'ferity roar':
+		# 	strength: 75
+		# 	hp: 750
 		'ferity feel':
 			agility: 100
 			armor: 500
 			block: 50
-		'ferity source':
-			resist: 300
-			damage: 300
+		# 'ferity source':
+		# 	resist: 300
+		# 	damage: 300
 		'eye of honor':
 			strength: 100
 			armor: 500
@@ -47,29 +47,29 @@ module.exports =
 			hp: 1300
 			resist: 500
 			critChance: 10
-		'curse of god':
-			dodge: 650
-			damage: 400
-		'moonlight':
-			agility:  75
-			strength: 75
-		'sigh of luna':
-			hp: 750
-			resist: 300
-		'guard of luna':
-			armor: 300
-			dmg: 300
-			critChance: 10
-		'saints remains':
-			intelligence: 75
-			armor: 300
-		'saints prestige':
-			intelligence: 75
-			hp: 750
-		'saints shield':
-			resist: 300
-			dmg: 300
-			range: 20
+		# 'curse of god':
+		# 	dodge: 650
+		# 	damage: 400
+		# 'moonlight':
+		# 	agility:  75
+		# 	strength: 75
+		# 'sigh of luna':
+		# 	hp: 750
+		# 	resist: 300
+		# 'guard of luna':
+		# 	armor: 300
+		# 	dmg: 300
+		# 	critChance: 10
+		# 'saints remains':
+		# 	intelligence: 75
+		# 	armor: 300
+		# 'saints prestige':
+		# 	intelligence: 75
+		# 	hp: 750
+		# 'saints shield':
+		# 	resist: 300
+		# 	dmg: 300
+		# 	range: 20
 		'glory spell':
 			intelligence: 120
 			hp: 1300
@@ -80,9 +80,9 @@ module.exports =
 			intelligence: 100
 			attack: 400
 			range: 20
-		'fury flames':
-			agility: 75
-			dodge: 360
+		# 'fury flames':
+		# 	agility: 75
+		# 	dodge: 360
 		'brandish':
 			intelligence: 120
 			hp: 1300
@@ -95,19 +95,19 @@ module.exports =
 		'chaos':
 			strength: 150
 			agility: 150
-		'chaotic order':
-			intelligence: 75
-			strength: 75
-		'chaotic region':
-			agility: 75
-			intelligence: 75
-		'tisiphone':
-			damage: 1000
-		'megaera':
-			hp: 5000
-		'alecto':
-			armor: 1000
-			resist: 1200
+		# 'chaotic order':
+		# 	intelligence: 75
+		# 	strength: 75
+		# 'chaotic region':
+		# 	agility: 75
+		# 	intelligence: 75
+		# 'tisiphone':
+		# 	damage: 1000
+		# 'megaera':
+		# 	hp: 5000
+		# 'alecto':
+		# 	armor: 1000
+		# 	resist: 1200
 		'brave defense':
 			armor: 500
 			resist: 500
