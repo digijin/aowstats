@@ -6,7 +6,7 @@ module.exports =
     entry: "./index"
     output: 
         path: path.join process.cwd(), "dist"
-        publicPath: path.join process.cwd(), "demo"
+        publicPath: "/assets/"
         filename: "bundle.js"
     module: 
         loaders: [
@@ -18,3 +18,5 @@ module.exports =
     	root: [
     		path.join process.cwd(), 'app'
     	]
+    devServer:
+    	contentBase: './demo'

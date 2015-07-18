@@ -1,12 +1,24 @@
 elements
 
 <table>
+	<tr>
+		<td>name</td>
+		<td>attributes</td>
+		<td>hill</td>
+		<td>shawn</td>
+	</tr>
 <%
 data.elements.forEach(function(el){
 %>
 <tr>
 	<td><%= el.name %></td>
-	<td><%= el.might %></td>
+	<td><ul><% el.attrs.forEach(function(att){
+		%>
+		<li><%= att.name %> +<%= att.val %></li>
+		<%
+	}) %></ul></td>
+	<td><%= el.hill %></td>
+	<td><%= el.shawn %></td>
 	<td><%= JSON.stringify(el) %></td>
 </tr>
 <%

@@ -10,23 +10,25 @@ window.onload = ->
 		el = {}
 		el.name = element
 		# console.log element + ':'
-		totalMight = 0
-		data = elements.arcane[element]
-		el.attrs = []
-		for attr of data
+		for charname of mights
+			totalMight = 0
+			data = elements.arcane[element]
+			el.attrs = []
+			for attr of data
 
-			val = data[attr]
-			char = mights.hill
-			if char[attr]
-				might = char[attr] * val
-				totalMight += might
+				val = data[attr]
+				char = mights[charname]
+				if char[attr]
+					might = char[attr] * val
+					totalMight += might
 
-			el.attrs.push {name: attr, val: val, might: might}
-			# console.log attr + ' ' + val + ' - ' + might
-		# console.log 'total might: '+ totalMight
-		el.might = totalMight
+				el.attrs.push {name: attr, val: val, might: might}
+				# console.log attr + ' ' + val + ' - ' + might
+			# console.log 'total might: '+ totalMight
+			el[charname] = totalMight
+			el.might = totalMight
 		elementMights.push el
 	
-	console.log elementMights
+	# console.log elementMights
 	document.body.innerHTML = view({elements: elementMights})
 		
